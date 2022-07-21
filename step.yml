@@ -157,6 +157,13 @@ inputs:
       summary: If you are using same account to test multiple applications, you can setup named connection using the localIdentifier option.
       description: If you are using same account to test multiple applications, you can setup named connection using the localIdentifier option.
       is_required: false
+  - browserstack_accept_insecure_cert:
+    opts:
+      title: "Accept Insecure Certificate"
+      category: Automated Test Options
+      summary: If you are using self signed certificates, you can set Browserstack to accept insecure certificates.
+      description: If you are using self signed certificates, you can set Browserstack to accept insecure certificates.
+      is_required: false      
   - browserstack_gps_location: "40.730610,-73.935242"
     opts:
       title: GPS Location
