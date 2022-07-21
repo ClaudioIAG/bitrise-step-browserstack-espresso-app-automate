@@ -51,6 +51,7 @@ workflows:
         - browserstack_device_list: "\"Google Pixel-7.1\", \"Google Pixel-8.0\""
         - browserstack_video: true
         - browserstack_local: false
+        - browserstack_accept_insecure_cert: false
         - browserstack_gps_location: "40.730610,-73.935242"
         - browserstack_class: ""
         - browserstack_package: ""
